@@ -17,10 +17,10 @@ pip install openai
 pip install SpeechRecognition
 ````
 
-In the chatgpt.py file, you will have replace the ai_name by what you want. It's important to choose a distinguished name
+In the chatgpt.py file, you have to replace the ai_name by what you want. It's important to choose a distinguished name
 because you will have to say it every time you talk to him.
 
-Then you will have to assign the openai.api_key, you can get an api key from here https://platform.openai.com/ : just create an account and get an api KEY. 
+Then you have to assign the openai.api_key, you can get an api key from here https://platform.openai.com/ : just create an account and get an api KEY. 
 
 You can change the model engine if you want.
 
@@ -30,13 +30,13 @@ Finally execute the script :
 python chatgpt.py
 ````
 
-You should hear a "Hello, I am <Bot name>" and you can ask questions to your new chat GPT assistant. Don't forget to say the AI's name every time you talk to him.
+You should hear a "Hello, I am <Bot name>" then you can ask questions to your new chat GPT assistant. Don't forget to say the AI's name every time you talk to him.
 
 ## Execute the script on Raspberry PI startup
 
 If you don't want to execute the script manually, you can choose to execute the script on your Raspberry PI startup.
 
-The method used here is to use systemd services.
+Here we use systemd services.
 
 Copy the chatgpt.service file from this repo to the following path :
 
