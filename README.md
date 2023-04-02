@@ -1,1 +1,2 @@
-# chatgpt_assistant
+# Raspberry PI Chat GPT Voice Assistant
+
