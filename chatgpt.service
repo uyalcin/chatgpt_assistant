@@ -3,10 +3,10 @@ Description=Chat GPT
 After=multi-user.target
 
 [Service]
-User=uyalcin
+User=<MYUSER>
 Type=simple
 ExecStartPre=pulseaudio --start
-ExecStart=python3 /home/uyalcin/chatgpt.py
+ExecStart=python3 /home/<MYUSER>/chatgpt.py
 Restart=always
 
 [Install]
