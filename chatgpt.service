@@ -1,0 +1,14 @@
+[Unit]
+Description=Chat GPT
+After=multi-user.target
+
+[Service]
+User=<MYUSER>
+Type=simple
+ExecStartPre=pulseaudio --start
+ExecStart=python3 /home/<MYUSER>/chatgpt.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
