@@ -1,3 +1,5 @@
+![alt text](https://avatars.githubusercontent.com/u/1294177?s=280&v=4)
+
 # Raspberry PI Chat GPT Voice Assistant
 
 Chat GPT Voice Assistant is an easy way to have chat GPT at home with the Raspberry PI.
