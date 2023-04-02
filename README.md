@@ -30,7 +30,7 @@ Finally execute the script :
 python chatgpt.py
 ````
 
-You should hear a "Hello, I am <Bot name>" then you can ask questions to your new chat GPT assistant. Don't forget to say the AI's name every time you talk to him.
+You should hear a "Hello, I am AI_NAME" then you can ask questions to your new chat GPT assistant. Don't forget to say the AI's name every time you talk to him.
 
 ## Execute the script on Raspberry PI startup
 
